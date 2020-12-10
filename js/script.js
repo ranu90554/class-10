@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:2000,
+        loop:true,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                 item:2
+            },
+        }
+    });
+});
